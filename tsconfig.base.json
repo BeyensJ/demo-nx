@@ -14,7 +14,18 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@demo-nx/shared-domain": ["libs/shared/domain/src/index.ts"],
+      "@demo-nx/shared-feature": ["libs/shared/feature/src/index.ts"],
+      "@demo-nx/shared-ui": ["libs/shared/ui/src/index.ts"],
+      "@demo-nx/shared-util": ["libs/shared/util/src/index.ts"],
+      "@demo-nx/swe-demo-app-domain": ["libs/swe-demo-app/domain/src/index.ts"],
+      "@demo-nx/swe-demo-app-feature": [
+        "libs/swe-demo-app/feature/src/index.ts"
+      ],
+      "@demo-nx/swe-demo-app-ui": ["libs/swe-demo-app/ui/src/index.ts"],
+      "@demo-nx/swe-demo-app-util": ["libs/swe-demo-app/util/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
